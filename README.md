@@ -11,7 +11,9 @@ Dépôt des six skills locaux Codex. Chaque skill possède son propre sous-dossi
 
 Les skills système, archives ZIP et sauvegardes ne sont pas inclus.
 
-Les dossiers actifs dans `~/.codex/skills/` sont actuellement des copies indépendantes de ce dépôt.
+Sur le Mac, les six skills actifs dans `~/.codex/skills/` sont des liens symboliques vers les sous-dossiers de ce dépôt. Les modifications locales et les mises à jour récupérées avec `git pull` sont donc directement disponibles dans les fichiers utilisés par Codex. Les anciennes copies sont sauvegardées hors du dossier de découverte, dans `~/.codex/skills-backups/`.
+
+GitHub ne synchronise pas automatiquement les ordinateurs : publier les changements avec `git push`, puis les récupérer avec `git pull` sur l’autre machine. Chaque machine doit installer les skills ou configurer ses propres liens vers son clone local. Les liens du Mac ne sont pas versionnés dans ce dépôt. La configuration du PC Windows reste à effectuer. Ne pas déplacer le dépôt local sans mettre à jour les liens.
 
 ## Provenance de ui-ux-pro-max
 
