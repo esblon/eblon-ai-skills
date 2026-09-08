@@ -17,4 +17,4 @@ Les dossiers actifs dans `~/.codex/skills/` sont actuellement des copies indépe
 
 Créateur : nextlevelbuilder. Source : https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
 
-Révision source : `4aad0584d92131626b16d4ff4d77f0455385013c`. Licence MIT conservée dans `ui-ux-pro-max/LICENSE`. Les chemins de commande de SKILL.md ont été adaptés à Python 3 et à l’installation locale Codex.
+Révision source : `4aad0584d92131626b16d4ff4d77f0455385013c`. Licence MIT conservée dans `ui-ux-pro-max/LICENSE`. Les commandes de SKILL.md résolvent le dossier réel du skill sur chaque machine et utilisent un interpréteur Python 3 disponible (macOS, Linux ou Windows).
