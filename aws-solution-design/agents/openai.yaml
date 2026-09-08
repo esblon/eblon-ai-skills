@@ -1,0 +1,4 @@
+interface:
+  display_name: "AWS Solution Design"
+  short_description: "Professional AWS architecture design documents"
+  default_prompt: "Use $aws-solution-design to create a clear, rigorous Solution Design for this AWS architecture request."

@@ -1,0 +1,27 @@
+{
+  "id": "aws-saa-eblon",
+  "name": "AWS SAA Eblon",
+  "type": "skill",
+  "provider": "aws",
+  "harnesses": [
+    "codex",
+    "claude-code",
+    "cursor",
+    "gemini",
+    "kiro",
+    "other"
+  ],
+  "summary": "Create and stress-test clear AWS Solution Design documents for business and technical audiences, with professional decisions, evidence discipline, and production-readiness analysis.",
+  "source_type": "original",
+  "official_docs": [
+    "https://docs.aws.amazon.com/wellarchitected/latest/framework/welcome.html",
+    "https://docs.aws.amazon.com/wellarchitected/latest/security-pillar/welcome.html",
+    "https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/welcome.html",
+    "https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/welcome.html"
+  ],
+  "security_notes": "Do not approve an AWS architecture without account-boundary, IAM, network exposure, data protection, observability, recovery, and cost evidence. Label unknowns instead of pretending the diagram is proof.",
+  "last_verified": "2026-08-29",
+  "path": "skills/aws/aws-saa-eblon",
+  "author": "Eblon",
+  "version": "1.0.0"
+}

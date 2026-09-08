@@ -1,0 +1,7 @@
+interface:
+  display_name: "AWS SAA Eblon"
+  short_description: "AWS design and architecture stress testing"
+  default_prompt: "Use $aws-saa-eblon to create and stress-test a clear, decision-ready AWS Solution Design for this architecture request."
+
+policy:
+  allow_implicit_invocation: true

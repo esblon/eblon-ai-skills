@@ -1,0 +1,7 @@
+interface:
+  display_name: "AWS Solution Architect"
+  short_description: "Professional AWS Solution Design documents"
+  default_prompt: "Use $aws-solution-architect to create a clear, decision-ready AWS Solution Design for this architecture request."
+
+policy:
+  allow_implicit_invocation: true
